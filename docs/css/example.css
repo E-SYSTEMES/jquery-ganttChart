@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/*! jquery.ganttChart 1.0.0
+ * ©2018 E SYSTEMES - https://github.com/E-SYSTEMES/jquery-ganttchart
+ * Licensed under MIT (https://github.com/E-SYSTEMES/jquery-ganttchart/blob/master/LICENSE)
+ */
+/**
+ * @summary      ganttChart
+ * @description  styles for demo
+ * @author       Lionel Astol
+ * @version      1.0.0
+ * @file         example.css
+ * @repo         https://github.com/E-SYSTEMES/jquery-ganttChart/
+ * @doc          https://e-systemes.github.io/jquery-ganttChart/
+ */
+.example {
+  font-size: 12px;
+  border-left: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6; }
+  .example-month {
+    border-right: 1px solid #dee2e6;
+    background-color: #343a40;
+    color: #fff;
+    padding: 0 10px; }
+    .example-month:last-child {
+      border-right: 0; }
+  .example-week {
+    border-right: 1px solid #dee2e6;
+    background-color: #343a40;
+    color: #6c757d;
+    padding: 0 5px; }
+    .example-week:last-child {
+      border-right: 0; }
+  .example-date {
+    border-right: 1px solid #dee2e6;
+    background-color: #343a40;
+    color: #fff;
+    text-align: center; }
+    .example-date:last-child {
+      border-right: 0; }
+    .example-date.today {
+      background-color: #ffc107; }
+  .example-day {
+    border-right: 1px solid #dee2e6;
+    background-color: #343a40;
+    color: #6c757d;
+    text-align: center; }
+    .example-day:last-child {
+      border-right: 0; }
+    .example-day.today {
+      background-color: #ffc107; }
+  .example-col {
+    border-right: 1px solid #eef1f2; }
+    .example-col:last-child {
+      border-right: 0; }
+    .example-col.today {
+      background-color: #ffc107; }
+    .example-col.nwd {
+      background-color: #f5f5f5; }
+  .example-row {
+    border-bottom: 1px solid #dee2e6; }
+  .example-event {
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+    background: #17a2b8;
+    color: #fff;
+    padding: 0 10px; }
+    .example-event a {
+      display: block;
+      color: #fff;
+      text-decoration: none; }

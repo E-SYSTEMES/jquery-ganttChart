@@ -1,0 +1,5 @@
+/*! jquery.ganttChart 1.0.0
+ * ©2018 Lionel Astol - https://github.com/E-SYSTEMES/jquery-ganttchart
+ * Licensed under MIT (https://github.com/E-SYSTEMES/jquery-ganttchart/blob/master/LICENSE)
+ */.Gantt-container{overflow-x:scroll;position:relative;-webkit-box-sizing:border-box;box-sizing:border-box}.Gantt-container *{-webkit-box-sizing:border-box;box-sizing:border-box}.Gantt-month,.Gantt-week{display:inline-block;overflow:hidden;white-space:nowrap;-o-text-overflow:ellipsis;text-overflow:ellipsis;vertical-align:top}.Gantt-date,.Gantt-day{display:inline-block}.Gantt-events{position:relative}.Gantt-col{display:inline-block}.Gantt-rows{position:absolute;top:0}.Gantt-row{width:100%}.Gantt-event{position:absolute;z-index:1;overflow:hidden;white-space:nowrap;-o-text-overflow:ellipsis;text-overflow:ellipsis;vertical-align:top}
+/*# sourceMappingURL=jquery.ganttChart-min.css.map */

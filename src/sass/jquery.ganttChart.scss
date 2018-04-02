@@ -1,0 +1,59 @@
+/*! jquery.ganttChart 1.0.0
+ * ©2018 Lionel Astol - https://github.com/E-SYSTEMES/jquery-ganttchart
+ * Licensed under MIT (https://github.com/E-SYSTEMES/jquery-ganttchart/blob/master/LICENSE)
+ */
+ 
+/**
+ * @summary      ganttChart
+ * @description  styles for ganttChart
+ * @author       Lionel Astol
+ * @version      1.0.0
+ * @file         jquery.ganttChart.scss
+ * @repo         https://github.com/E-SYSTEMES/jquery-ganttChart/
+ * @doc          https://e-systemes.github.io/jquery-ganttChart/
+ */
+
+.Gantt {
+
+  &-container {
+    overflow-x: scroll;
+    position: relative;
+    box-sizing: border-box; // you can delete this line if your styles already use this
+    * {
+      box-sizing: border-box; // you can delete this line if your styles already use this
+    }
+  }
+  &-month,
+  &-week {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    vertical-align: top;
+  }    
+  &-date,
+  &-day {
+    display: inline-block;
+  }
+  &-events {
+    position: relative;
+  }
+  &-col {
+    display: inline-block;
+  }
+  &-rows {
+    position: absolute;
+    top: 0;
+  }
+  &-row {
+    width: 100%;
+  }
+  &-event {
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    vertical-align: top;
+  }
+}
